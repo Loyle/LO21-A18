@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Projet_LO21" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Projet_LO21" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Projet_LO21" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="people/calculate_quality.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="people/calculate_quality.h" />
+		<Unit filename="people/display_people.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="people/display_people.h" />
+		<Unit filename="people/initialize_people.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="people/initialize_people.h" />
+		<Unit filename="people/insert_head.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="people/insert_head.h" />
+		<Unit filename="people/insert_tail.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="people/insert_tail.h" />
+		<Unit filename="people/value.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="people/value.h" />
+		<Unit filename="population/cross_population.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="population/cross_population.h" />
+		<Unit filename="population/display_population.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="population/display_population.h" />
+		<Unit filename="population/getBestPeople.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="population/getBestPeople.h" />
+		<Unit filename="population/getRandomPeople.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="population/getRandomPeople.h" />
+		<Unit filename="population/initialize_population.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="population/initialize_population.h" />
+		<Unit filename="population/merge_pop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="population/merge_pop.h" />
+		<Unit filename="population/quicksort.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="population/quicksort.h" />
+		<Unit filename="population/tSelect.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="population/tSelect.h" />
+		<Unit filename="structures.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
